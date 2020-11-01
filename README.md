@@ -10,8 +10,12 @@
     * adjacency list
       -> for n nodes we need n+1 size vector ( makes it cache friendly)
       basic syntax:
-      /* basic creation of the graph */ 
-     //
+      
+      
+      
+/* basic creation of the graph */ 
+     
+     
      vector<int>adj[n+1];
       while(no.of.edges--)
       {
@@ -20,7 +24,6 @@
          adj[u].pb(v);
          adj[v].pb(u);
       }
-   
-   //
+     
       
       
