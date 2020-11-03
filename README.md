@@ -30,11 +30,14 @@
  /* DFS    */ 
  
  
+ 
  void dfs(int v)
  {
+    
+    
     vis[v]=true;
     cout<<v<<"->";
-    for(int i=0;i<a[v].size();++i)
+     for(int i=0;i<a[v].size();++i)
     {
       
       int child=a[v][i];
@@ -43,4 +46,14 @@
     }
      
  }    
-      
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
