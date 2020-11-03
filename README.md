@@ -24,6 +24,25 @@
          adj[u].pb(v);
          adj[v].pb(u);
       }
-     
       
+ 
+ 
+ /* DFS    */ 
+ 
+ 
+ 
+ 
+ void dfs(int v)
+ {
+    vis[v]=true;
+    cout<<v<<"->";
+    for(int i=0;i<a[v].size();++i)
+    {
+      
+      int child=a[v][i];
+      if(vis[child]==0)
+      dfs(child);
+    }
+     
+ }    
       
