@@ -1,6 +1,6 @@
 # Graph
 
-1) Representation of Graph: 
+# Representation of Graph: 
 
     * adjacency matrix
       -> too much space
@@ -27,7 +27,7 @@
       
  
  
- /* DFS    */ 
+  #DFS:
  
  
  
@@ -47,8 +47,11 @@
      
  }    
     
+ #Connected Components:
+ using DFS we can find the number of Connected Components in a Graph
  
- 
+ all we need to do is iterate over every node and if it is not visited
+ then call the dfs function and increment  the count of CC.
  
  
  
