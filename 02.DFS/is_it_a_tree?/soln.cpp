@@ -5,8 +5,6 @@ const int mx=1e4+5;
 
 vector<int>adj[mx];
 bool vis[mx];
-
-
 void dfs(int node)
 {
 	vis[node]=true;
