@@ -1,7 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long int
-
 const ll mx=2e5+5;
 
 vector<ll>adj[mx];
