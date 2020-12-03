@@ -3,6 +3,9 @@
 using namespace std;
 #define ll long long int
 #define pb push_back
+#define debug(a) cout << #a << "=" << a << ' '<<endl;
+#define out(x)  for(auto &t:x) cout<<t<<" "; cout<<endl;
+#define all(x) x.begin(),x.end()
 
 const ll mx=1e5+5;
 
@@ -29,6 +32,9 @@ void dfs(ll u)
 
 int main()
 {
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
+	
 	int t;
 	cin>>t;
 	
