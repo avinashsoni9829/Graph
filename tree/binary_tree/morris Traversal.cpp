@@ -11,7 +11,7 @@ struct node {
 
 void morrisTraversal(node*  root)
 {
-	  	node* curr,*pre;
+	  	node* curr,pre;
 	  	
 	  	if(root==NULL)
 	  	return;
